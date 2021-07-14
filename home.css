@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.wrapper
+{
+	background: url("images/home.jpg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.nav-bar
+{
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.logo
+{
+	width: 80px;
+	height: auto;
+	padding: 0px 100px;
+}
+
+
+.nav-bar ul
+{
+	float: right;
+	margin-right: 30px;
+	
+}
+
+.nav-bar ul li
+{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 100px;
+	
+}
+
+
+.nav-bar ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	transition: .4s;
+}
+
+
+.nav-bar ul li a:hover
+{
+	background: red;
+	border-radius: 3px;
+}
+
+.wrapper .message
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	user-select: none; 
+	color: red;
+
+	
+}
+
+.message h1
+{
+	font-size: 60px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+}
+
+
+.message h3
+{
+	font-size: 60px;
+	font-weight: bold;
+	width: 880px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+
+
